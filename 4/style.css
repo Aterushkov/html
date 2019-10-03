@@ -1,0 +1,91 @@
+*{
+  margin:0;
+  padding: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #8AE0E6;
+}
+
+h1{
+  margin: 0 auto;
+  color: #8AE0E6;
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+p{
+  margin: 0 auto;
+  color: rgba(34,139,34,1);
+  font-size: 20px;
+
+}
+button{
+  background: #8AE0E6;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid #8AE0E6;
+    border-radius: 5px;
+    font-size: 18px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin: 0 auto;
+    display: flex;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.logo {
+    display: flex;
+    width: 180px;
+    height: 180px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background: url(logos.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    inline-size: unset;
+}
+.block{
+margin: 100px auto;
+  background: #fff;
+  width: 290px;
+  height: 410px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  padding: 50px;
+
+}
+.imageblock{
+  width: auto;
+  height: auto;
+
+}
+.image{
+  background-image:url(stickerleto.png);
+
+  background-position: top center;
+  background-repeat: no-repeat;
+  width: 260px;
+  height: 200px;
+  background-size: contain;
+}
+
+.sendlog {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: #fff;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid #8AE0E6;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-right: 5px;
+}
+::-webkit-input-placeholder { color: #000; }

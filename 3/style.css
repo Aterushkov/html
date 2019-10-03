@@ -1,0 +1,116 @@
+*{
+  margin:0;
+  padding: 0;
+}
+body{
+  background: #fff;
+
+}
+
+.menu{
+  background: #1b99b9;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 5%;
+}
+.footer{
+  background: #1b99b9;
+  height: 109px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.logo{
+  display: flex;
+  justify-content: space-between;
+  width: 13%;
+  box-sizing: border-box;
+  background: url(logosmin.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:auto;
+  margin-right: auto;
+}
+.icon1{
+  display: flex;
+  justify-content: space-between;
+  background: url(first.png);
+  width: 3%;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:auto;
+}
+.icon2{
+  display: flex;
+  justify-content: space-between;
+  width: 3%;
+  box-sizing: border-box;
+  background: url(second.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+.icon3{
+  display: flex;
+  justify-content: space-between;
+  width: 3%;
+  box-sizing: border-box;
+  background: url(trees.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:auto;
+}
+
+.content{
+  display: flex;
+  justify-content:center;
+}
+
+
+.content img{
+  width: 550px;
+  height: auto;
+}
+
+.button1{
+    background: #3eb489;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid #80D341;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: 10%;
+    margin-left:auto;
+    margin-right: 5%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    height: 35px;
+}
+.button2{
+    background: #ebc2af;
+    color: #52403a;
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid #80D341;
+    font-size: 16px;
+    border-radius: 10px;
+    display: flex;
+    margin-right: auto;
+    margin-left: 5%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    height: 35px;
+}
+
+
+.sends {
+    display: flex;
+    justify-content: space-between;
+}
