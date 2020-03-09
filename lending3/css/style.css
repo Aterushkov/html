@@ -30,6 +30,9 @@ p, h1,h2,h3,h4,h5,h6{
 .justify-content-center{
   justify-content: center;
 }
+.justify-content-between{
+  justify-content: space-between;
+}
 
 .container{
   max-width: 1114px;
@@ -78,6 +81,7 @@ p, h1,h2,h3,h4,h5,h6{
 
 .inner{
   height: 100vh;
+  min-height: 960px;
   background: linear-gradient(89.79deg, #23196F 0.13%, #180D5B 99.88%);
   padding-top: 106px;
 }
@@ -87,10 +91,26 @@ p, h1,h2,h3,h4,h5,h6{
   color: #fff;
   line-height: 1.29;
   margin-top: 55px;
+  z-index: 1;
+  position: relative;
 }
+
 .inner-call-to-action{
   max-width: 545px;
+  position: relative;
+
 }
+.inner-call-to-action::after{
+  content: '';
+  width: 738px;
+  height: 611px;
+  background: url('../img/inner-bg.png') no-repeat;
+  position: absolute;
+  top: -100px;
+  right: -655px;
+  z-index: 0;
+}
+
 .call-to-action-desq{
   font-size: 18px;
   color: rgba(255, 255, 255, 0.8);
@@ -98,6 +118,7 @@ p, h1,h2,h3,h4,h5,h6{
   margin-top: 20px;
   max-width: 390px;
   margin-bottom: 55px;
+
 }
 
 .call-to-action-desq>span{
@@ -116,4 +137,32 @@ p, h1,h2,h3,h4,h5,h6{
 
 .email-not-requered span{
   margin-left: 15px;
+}
+
+.inner-services-wrap{
+  margin-top: 90px;
+
+}
+
+.inner-services-title{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.29;
+  margin-bottom: 30px;
+  color: #fff;
+  max-width: 365px;
+}
+
+.inner-services-list-item{
+  width: 154px;
+  height: 164px;
+  background: rgba(15,6,76,0.45);
+  cursor: pointer;
+}
+.inner-services-list-item:hover{
+  background-color: #fff;
+}
+
+.inner-services-list-item + .inner-services-list-item{
+  margin-left: 10px;
 }
