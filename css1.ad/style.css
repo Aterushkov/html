@@ -1,0 +1,148 @@
+*{
+  margin:0;
+  padding: 0;
+}
+body{
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e4eef3;
+}
+
+h1{
+  margin: 0 auto;
+  color: #34C0E2;
+}
+p{
+  margin: 0 auto;
+  color: rgba(34,139,34,1);
+  font-size: 20px;
+
+}
+button{
+  background: #34C0E2;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid #34C0E2;
+    border-radius: 5px;
+    font-size: 18px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin-right: 10px;
+}
+.block{
+
+  background: #fff;
+  width: 90%;
+  height: 90%;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(34,139,34,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+
+}
+
+.mddt{
+  height: 100px;
+}
+.ablock{
+  position: absolute;
+  left: 10px;
+  top: 0px;
+  width: 25px;
+  height: 25px;
+  z-index: 25;
+
+
+
+}
+.ablock1{
+  background-color: green;
+  transition-delay: 1s; /* Задержка перед запуском */
+  transition-duration: 5s;
+
+}
+.ablock2{
+  background-color: red;
+  transition-delay: 1s; /* Задержка перед запуском */
+  transition-duration: 5s;
+}
+.ablock3{
+  background-color: grey;
+  transition-delay: 1s; /* Задержка перед запуском */
+  transition-duration: 5s;
+}
+.ablock4{
+  background-color: blue;
+  transition-delay: 1s; /* Задержка перед запуском */
+  transition-duration: 5s;
+}
+.ablock5{
+  background-color: orangered;
+  transition-delay: 1s; /* Задержка перед запуском */
+  transition-duration: 5s;
+}
+.ablock6{
+  background-color: orchid;
+  transition-delay: 1s; /* Задержка перед запуском */
+  transition-duration: 5s;
+}
+
+.ablock7{
+  background-color: orchid;
+  transition-delay: 1s; /* Задержка перед запуском */
+  transition-duration: 5s;
+}
+
+.animate{
+
+  top:-90%;
+  background-color: orchid;
+  width:50px;
+  height:50px;
+  transform: rotate(3turn);
+}
+
+.animate1{
+  width: 90%;
+  background-color: green;
+  transform: rotate(90deg);
+}
+.animate2{
+  width: 90%;
+  background-color: red;
+  transform: rotate(135deg) rotateY(1turn) rotateX(1turn);
+}
+.animate3{
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  transform: rotate(180deg) rotateY(1turn);
+
+}
+.animate4{
+  height: 90%;
+  background-color: blue;
+  transform: rotate(225deg) rotateY(1turn);
+
+}
+.animate5{
+  left: 90%;
+  top:  90%;
+  background-color: orangered;
+  transform: rotate(360deg) rotateX(1turn);
+}
+.animate6{
+  width: 50px;
+  height: 50px;
+  left: 50%;
+  background-color: orangered;
+  transform: rotate(360deg) rotateX(1turn);
+}
+
+.mddts{
+  transform-style: preserve-3d;
+}
